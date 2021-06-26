@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index2.css" type="text/css">
+  <title>Maquetacion</title>
+</head>
+<body>
+  
+<div class="contenedor-app">
+  <aside>
+    <h1>MERN<span>Tasks</span>
+    <button type="button" class="btn btn-block btn-primario">Nuevo Proyecto</button>
+    <form class="formulario-nuevo-proyecto">
+      <input type="text" class="input-text" placeholder="Nombre Proyecto">
+      <input type="submit" class="btn btn-block btn-primario" value="Agregar Proyecto">
+    </form>
+    <div class="proyectos">
+      <h2>Tus Proyectos</h2>
+      <ul class="proyectos">
+        <li>
+          <button type="button" class="btn btn-blank">Proyecto MERN</button>
+        </li>
+        <li>
+          <button type="button" class="btn btn-blank">Proyecto en Laravel</button>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <div class="seccion-principal">
+    <header class="app-header">
+      <p class="nombre-usuario">Hola <span>Diego</span></p>
+      <nav class="nav-principal">
+        <a href="#!">Cerrar Sesion</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="formulario">
+        <form>
+          <div class="contenedor-input">
+            <input type="text" class="input-text" placeholder="Nombre Tarea">
+          </div>
+          <div class="contenedor-input">
+            <input type="submit" class="btn btn-block btn-primario" value="Agregar Tarea" />
+          </div>
+        </form>
+      </div>
+      <div class="contenedor-tareas">
+        <h2>Proyecto: Tienda Virtual</h2>
+        <ul class="listado-tareas">
+          <li class="tarea sombra">
+            <p>Elegir Plataforma</p>
+            <div class="estado">
+              <button type="button" class="completo">Completo</button>
+            </div>
+            <div class="acciones">
+              <button type="button" class="btn btn-primario">Editar</button>
+              <button type="button" class="btn btn-secundario">Eliminar</button>
+            </div>
+          </li>
+          <li class="tarea sombra">
+            <p>Elegir Colores</p>
+            <div class="estado">
+              <button type="button" class="incompleto">Incompleto</button>
+            </div>
+            <div class="acciones">
+              <button type="button" class="btn btn-primario">Editar</button>
+              <button type="button" class="btn btn-secundario">Eliminar</button>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </main>
+  </div>
+</div>
+</body>
+</html>
