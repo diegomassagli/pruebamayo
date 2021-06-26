@@ -1,1 +1,1 @@
-quiero agregar este cambio directamente desde github para bajarlo del remote al local con git fetch
+agrego este cambio para ver si solo con git pull baja del remoto al local
